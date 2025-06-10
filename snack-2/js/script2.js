@@ -62,6 +62,12 @@ for (const key in serieA) {
 
 console.log(serieA);
 
+// ORDINATI IN CLASSIFICA
+
+serieA.sort(function (a, b) {
+  return b.punti - a.punti;
+});
+
 // NUOVO ARRAY CON NOME E FALLI SUBITI
 let statsSeriea = [];
 // CICLO FOR E PUSHARE NE NUOVO ARRAY NOME E FALLI SUBITI
