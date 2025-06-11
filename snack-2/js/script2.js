@@ -80,3 +80,23 @@ for (let i = 0; i < serieA.length; i++) {
 }
 
 console.log(statsSeriea);
+
+// CREA FUNZIONI
+
+/* function dilteredTeams(serieA) {
+  let statsSeriea = [];
+
+  for (let i = 0; i < serieA.length; i++) {
+    const squadre = serieA[i];
+    statsSeriea.push({
+      nome: squadre.nome,
+      fallisubiti: squadre.fallisubiti,
+    });
+  }
+  return statsSeriea;
+}
+
+const filtered = dilteredTeams(serieA);
+
+console.log(filtered);
+ */

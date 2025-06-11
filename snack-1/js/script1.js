@@ -43,3 +43,16 @@ for (let i = 1; i < bici.length; i++) {
 console.log(
   `La bici più leggera è la bici da ${biciLight.nome} perchè pesa solo ${biciLight.peso}kg`
 );
+
+/* function findlightbike(bici) {
+  let biciLight = bici[0];
+  for (let i = 1; i < bici.length; i++) {
+    if (bici[i].peso < biciLight.peso) {
+      biciLight = bici[i]; //BICI CON PESO MINORE
+    }
+  }
+  return biciLight;
+}
+
+console.log(findlightbike(bici));
+ */
